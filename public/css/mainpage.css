@@ -1,0 +1,46 @@
+.central-photo-sell-button-title {
+    border: solid 2px orange;
+    border-radius: 30px;
+    padding: 5px 15px 5px 15px;
+    background: orange;
+}
+
+.central-photo-sell-button-title:hover {
+    background: #604100;
+}
+
+.central-photo-title {
+    position: relative;
+    bottom: 20%;
+    left: 40%;
+    font-size: 25px;
+    color:white;
+    font-weight: 600;
+}
+
+.central-photo-sell-button-title {
+    font-weight: 600;
+    color: white;
+}
+
+.central-photo-sell-button-title:hover {
+    color: orange;
+}
+
+.mainpage-main-photo {
+    width: 100%;
+    margin-top: 2%;
+}
+
+@media screen and (max-width: 1920px) {
+    .central-photo-title {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 1065px) {
+    .central-photo-title {
+        font-size: 15px;
+    }
+}
+

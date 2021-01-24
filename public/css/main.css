@@ -2,10 +2,68 @@ body {
     background: linear-gradient(.25turn, #a5a8af, #747670);
 }
 
-
 .background-for-all-pages {
-    margin-top: 1%;
+
     /*background: radial-gradient(#28867e, #015460);*/
     background: linear-gradient(.25turn, #a5a8af, #747670);
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    padding: 1px;
+}
+
+.header-link-color {
+    color: black;
+    font-weight: 600;
+}
+
+.header-link-color:hover {
+    color: white;
+}
+
+.header-background {
+    background: linear-gradient(.25turn, #a5a8af, #747670);
+}
+.product-card {
+    padding: 1%;
+}
+
+.product-card-inner {
+    background: linear-gradient(.25turn, #dfe2e9, #abaea5);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.product-card-block-image {
+    width: 80%;
+    margin-left: 10%;
+}
+
+@media screen and (max-width: 1920px) {
+    .background-for-all-pages {
+        margin-top: 5%;
+        -webkit-overflow-scrolling: touch;
+        /*background: linear-gradient(.25turn,  #747670, #f0f3fa);*/
+    }
+}
+
+@media screen and (max-width: 1065px) {
+    .background-for-all-pages {
+        margin-top: 8%;
+        -webkit-overflow-scrolling: touch;
+        /*background: linear-gradient(.25turn,  #747670, #f0f3fa);*/
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .background-for-all-pages {
+        margin-top: 10%;
+        -webkit-overflow-scrolling: touch;
+        /*background: linear-gradient(.25turn,  #747670, #f0f3fa);*/
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .background-for-all-pages {
+        margin-top: 20%;
+        -webkit-overflow-scrolling: touch;
+        /*background: linear-gradient(.25turn, #a5a8af, #747670);*/
+    }
 }
